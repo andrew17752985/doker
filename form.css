@@ -1,3 +1,27 @@
-div.label{
-    color: rgb(48, 235, 11);
+div label{
+    color: rgb(206, 139, 15);
+}
+.brown{
+    color: brown;
+}
+.form{
+    background-color: rgba(233, 162, 162, .3);
+}
+.head{
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.container{
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    border: 1px solid grey;
+    border-radius: 50px 0;
+    border-right-style: dashed;
+    box-shadow: 5px 5px 30px 5px lightgrey;
 }
