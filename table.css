@@ -1,0 +1,13 @@
+.table{
+    border: 2px dashed rgba(248, 9, 9, 0.87);
+}
+
+.table td{
+    border: 1px dotted rgba(21, 172, 29, 0.87);
+}
+td{
+    border: 1px solid rgba(172, 21, 139, 0.87);
+}
+ssl{
+    
+}

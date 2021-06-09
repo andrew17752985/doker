@@ -1,0 +1,23 @@
+.list{
+    list-style-type: bengali;
+}
+
+.list li{
+    font-size: 18px;
+}
+
+.list > li{
+    font-size: 25px;
+}
+
+.list > li + li{
+    color: purple;
+}
+
+.list > li:last-child{
+    background-color: rgba(0, 124, 128, 0.151);
+}
+
+/* .list li ~ li{
+    color: rgb(238, 9, 9);
+} */
