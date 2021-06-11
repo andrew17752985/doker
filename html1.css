@@ -1,6 +1,14 @@
+body{
+    margin: 0;
+}
+
 .list{
     list-style-type: bengali;
+    margin: auto;
+    width: 10%;
+    padding: 10px;
 }
+
 
 .list li{
     font-size: 18px;
@@ -17,7 +25,87 @@
 .list > li:last-child{
     background-color: rgba(0, 124, 128, 0.151);
 }
-
+.photo{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+ div.imh:hover{
+    position: relative;
+    background: black;
+} 
+div.imh:hover img{
+    display: none;
+} 
+.imh{
+    width: 300px;
+    height: 445px;
+    /* margin: 0 auto; */
+}
 /* .list li ~ li{
     color: rgb(238, 9, 9);
 } */
+
+.mainDiv{
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}
+
+.mainDiv:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url('img/IMG_E0596.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: -1;
+  }
+
+.mazafaka{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button{
+    text-decoration: none;
+    padding: 5px 15px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+video{
+    margin: auto;
+    display: block;
+}
+
+.vid-wrap{
+    text-align: center;
+}
+
+.vid-wrap .button{
+    margin-bottom: 20px;
+}
+
+.vid-wrap .button:hover + .vid video{
+    display: none;
+}
+
+
+.vid{
+    width: 640px;
+    height: 360px;
+    margin: auto;
+    background: url(img/IMG_E0596.jpg) 50% no-repeat;
+    background-size: contain;
+}

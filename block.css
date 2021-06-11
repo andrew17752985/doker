@@ -1,0 +1,10 @@
+.blok{
+    border: 6px solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+
+}
+.blok img{
+    display: block;
+}
