@@ -1,0 +1,112 @@
+html, body{
+    height: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    
+}
+.header svg, .header img{
+    display: block;
+}
+.header > span{
+    margin-left: 15px;
+}
+.header a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.imgh{
+    border-radius: 50%;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.batya{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 600px;
+}
+.batya input{
+    width: 100%;
+    border-radius: 24px;
+    height: 44px;
+    border: 1px solid grey;
+    outline: none;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.batya input:hover{
+    box-shadow: 0 1px 6px gray;
+}
+.loop{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -12px;
+}
+.mik{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -12px;
+}
+.zadralo{
+    margin: 0 0 30px;
+}
+.zadralo button{
+    border: 1px solid rgb(239, 239, 239);
+    padding: 10px 15px;
+}
+.zadralo button + button{
+    margin-left: 10px;
+}
+.zadralo button:hover{
+    border: 1px solid grey;
+    box-shadow: 0 1px 1px gray;
+}
+footer{
+    background: lightgray;
+    padding: 10px 0px;
+    color: darkslategrey;
+}
+footer a{
+    color: darkslategrey;
+}
+footer a + a{
+    margin-left: 30px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.poloska{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+    padding-left: 30px;
+}
+.poloska + div{
+    padding: 0 30px;
+}
